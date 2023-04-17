@@ -1,5 +1,5 @@
 #Define local account name
-$accountName = "eqd12"
+$accountName = "local username goes here"
 
 #Get password last set time for specific local account
 $passwordLastSet = (Get-LocalUser -Name $accountName).$passwordLastSet
